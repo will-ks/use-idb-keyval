@@ -13,7 +13,6 @@ useIdbKeyval is a react hook wrapping idb-keyval.
 ```tsx
 // Set a value
 const [setFoo, { loading, error, isSet }] = useIdbKeyvalMutation('myKey')
-    ...
 <button onClick={()=>setFoo(true)}>Save</button>
 
 // Retrieve a value
